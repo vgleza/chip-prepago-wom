@@ -22,14 +22,6 @@ const stepData = {
     "Nous vous suggérons d’avoir votre pièce d’identité ou passeport valide à portée de main et de suivre les étapes pour activer votre numéro.",
     "Une fois le processus terminé, activez puis désactivez le mode avion.",
     "Enfin, vous recevrez un SMS de confirmation de l’activation de votre service."
-  ],
-  it: [
-    "Inserisci la SIM nel tuo telefono.",
-    "Chiama il 103 e inserisci il tuo numero di RUT o passaporto.",
-    "Riceverai un SMS con i passaggi da seguire.",
-    "Ti suggeriamo di avere a portata di mano un documento d’identità valido o il passaporto e di seguire i passaggi per attivare il tuo numero.",
-    "Una volta completata la procedura, attiva e disattiva la modalità aereo.",
-    "Infine riceverai un SMS di conferma con l’attivazione del servizio."
   ]
 };
 
