@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.language-buttons {
+  margin: 20px 0;
+}
+
+.language-buttons button {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #640D5F;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.language-buttons button:hover {
+  background-color: #460a42;
+}
+
+.header-text {
+  margin: 30px 0;
+  color: #640D5F;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.step-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.step-list li {
+  counter-increment: step-counter;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 40px; /* espacio para la caseta del número */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.step-list li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px; /* caseta rectangular con esquinas redondeadas. */
+  background-color: #640D5F; /* mismo color que los botones */
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
